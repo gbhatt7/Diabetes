@@ -1,0 +1,49 @@
+.header {
+    height: 10vh;
+    width: 100%;
+    background-color: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    box-shadow: 0px 0px 15px 5px rgba(184, 247, 255, 0.75);
+}
+.header .logo h1{
+    color: purple;
+    font-size: 25px;
+    padding-left: 10px;
+}
+.navbar ul li{
+    display: inline-block;
+    text-decoration: none;
+}
+.navbar ul li a, button{
+    text-decoration: none;
+}
+.navbar ul li a{
+    padding: 10px;
+    font-weight: bold;
+    font-size: 24px;
+    color: black;
+    transition: all 0.3s 0s;
+}
+.navbar ul li a:hover{
+    color: crimson;
+}
+.header a{
+    padding: 10px;
+    padding-right: 15px;
+}
+.header button{
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 50px;
+    background: rgba(0, 187, 255, 1);
+    color: white;
+    border: none;
+    transition: all 0.3s 0s;
+}
+.header button:hover{
+    background: rgba(0, 187, 255, 0.8);
+}
