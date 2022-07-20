@@ -1,0 +1,30 @@
+.aboutcontainer {
+    height: auto;
+    width: 50%;
+    text-align: center;
+}
+
+.aboutcontainer h1 {
+    color: rgba(0, 187, 255, 1);
+}
+
+.aboutcontainer p {
+    padding-left: 20px;
+    font-weight: lighter;
+    font-size: 32px;
+}
+
+.diabetes {
+    height: auto;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.diabetes h1{
+    color: brown;
+    text-shadow: red;
+}
+.diabetes p{
+    font-size: 28px;
+}
