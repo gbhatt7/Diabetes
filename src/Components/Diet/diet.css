@@ -1,0 +1,36 @@
+.dietcontainer {
+    height: 60vh;
+    width: 100%;
+    background-color: white;
+    justify-content: left;
+}
+
+.dietcontainer h1 {
+    padding-left: 20px;
+    font-weight: lighter;
+    font-size: 60px;
+}
+
+.dietcontainer .subcontainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.dietcontainer .container1 {
+    height: 30vh;
+    padding: 10px;
+    background-color: red;
+}
+
+.dietcontainer .container2 {
+    height: 30vh;
+    padding: 10px;
+    background-color: blue;
+}
+
+.dietcontainer .container3 {
+    height: 30vh;
+    background-color: yellow;
+    padding: 10px;
+}
