@@ -12,12 +12,12 @@ export default function Header() {
             </div>
             <nav className='navbar'>
                 <ul>
-                    <li><a href="#"><div className="text">About</div></a></li>
-                    <li><a href="#"><div className="text">Problems</div></a></li>
-                    <li><a href="#"><div className="text">Diet</div></a></li>
+                    <li><a><div className="text">About</div></a></li>
+                    <li><a><div className="text">Problems</div></a></li>
+                    <li><a><div className="text">Diet</div></a></li>
                 </ul>
             </nav>
-            <a href="#"><button>Contact Us</button></a>
+            <a><button>Contact Us</button></a>
         </header>
     )
 }
