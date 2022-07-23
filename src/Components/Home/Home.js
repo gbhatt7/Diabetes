@@ -10,7 +10,7 @@ export default function Home() {
         <div className='homecontainer' style={stylehome}>
             <h1>422 milliion people</h1>
             <h2>affected with Diabetes..</h2>
-            <img src={worldmap} />
+            <img src="worldmap" alt="" />
         </div>
     )
 }
