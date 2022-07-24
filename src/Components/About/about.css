@@ -1,30 +1,66 @@
+.diabetescontainer,
 .aboutcontainer {
-    height: auto;
-    width: 50%;
-    text-align: center;
-}
-
-.aboutcontainer h1 {
-    color: rgba(0, 187, 255, 1);
-}
-
-.aboutcontainer p {
-    padding-left: 20px;
-    font-weight: lighter;
-    font-size: 32px;
-}
-
-.diabetes {
     height: auto;
     width: 100%;
     align-items: center;
     justify-content: center;
     text-align: center;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: row;
 }
-.diabetes h1{
+
+.diabetescontainer .container1 h1 {
     color: brown;
-    text-shadow: red;
 }
-.diabetes p{
-    font-size: 28px;
+
+.diabetescontainer .container1,
+.container2 {
+    width: 50%;
+}
+
+.diabetescontainer .container1 {
+    box-shadow: inset 0 -0.05rem white,
+        inset 0 -0.15rem brown,
+        inset 0 -0.3rem white,
+        inset 0 -0.45rem brown;
+}
+
+.diabetescontainer .container2 {
+    height: 60vh;
+}
+
+.aboutcontainer .container1,
+.container2 {
+    width: 50%;
+}
+
+.aboutcontainer h1 {
+    color: rgba(0, 180, 255, 1);
+}
+
+.aboutcontainer .container1 img {
+    padding-top: 20px;
+    width: 50vw;
+    height: auto;
+    animation: aboutusimg 4s linear infinite;
+}
+@keyframes aboutusimg {
+    0%{
+        transform: translateY(32px);
+    }
+    50%{
+        transform: translateY(12px);
+    }
+    100%{
+        transform: translateY(32px);
+    }
+}
+
+.aboutcontainer .container2 {
+    height: fit-content;
+    box-shadow: inset 0 -0.05rem white,
+        inset 0 -0.15rem rgba(0, 180, 255, 1),
+        inset 0 -0.3rem white,
+        inset 0 -0.45rem rgba(0, 180, 255, 1);
 }
