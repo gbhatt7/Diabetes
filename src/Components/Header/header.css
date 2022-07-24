@@ -8,7 +8,7 @@
     flex-direction: row;
     justify-content: space-between;
     box-shadow: 0px 0px 15px 5px rgba(184, 247, 255, 0.75);
-    padding-bottom: 15px;
+    padding-bottom: 20px;
     cursor: pointer;
 }
 .header .logo h1{
@@ -22,14 +22,14 @@
     display: inline-block;
     text-decoration: none;
 }
-.navbar ul li a, button{
+.navbar ul li, button{
     text-decoration: none;
     cursor: pointer;
 }
-.navbar ul li a{
+.navbar ul li{
     padding: 0;
 }
-.navbar ul li a .text{
+.navbar ul li .text{
     padding: 10px;
     padding-right: 15px;
     padding-left: 15px;
@@ -38,23 +38,23 @@
     color: black;
     transition: all 0.3s 0s;
 }
-.navbar ul li a .text:hover{
+.navbar ul li .text:hover{
     color: crimson;
     transform: scale(1.5) translateY(-3px);
     padding-left: 30px;
     padding-right: 30px;
 }
-.navbar ul li:nth-child(1) a .text:hover{
-    color: blue;
+.navbar ul li:nth-child(1) .text:hover{
+    color: rgba(0, 70, 255, 1);
 }
-.navbar ul li:nth-child(3) a .text:hover{
+.navbar ul li:nth-child(3) .text:hover{
     color: green;
 }
-.header a{
+.header .button{
     padding: 13px;
     padding-right: 15px;
 }
-.header button{
+.header .button button{
     padding: 10px;
     font-size: 15px;
     border-radius: 50px;
@@ -64,6 +64,6 @@
     transition: all 0.3s 0s;
     font-weight: bold;
 }
-.header button:hover{
+.header .button button:hover{
     background: rgba(0, 187, 255, 0.8);
 }
