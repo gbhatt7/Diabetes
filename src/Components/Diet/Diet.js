@@ -17,7 +17,7 @@ export default function Diet() {
     paddingRight: '20px'
   }
   return (
-    <div className='dietcontainer'>
+    <div className='dietcontainer' id='diet'>
       <h1 style={styleh}>Diet</h1>
       <p style={stylep}>Diet is the sum of food consumed by a person or other organism. The word diet often implies the use of specific intake of nutrition for health reasons.</p>
       <div className="subcontainer">

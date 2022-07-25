@@ -20,7 +20,7 @@ export default function About() {
     }
     return (
         <>
-            <div className="diabetescontainer">
+            <div className="diabetescontainer" id='about'>
                 <div className="container1">
                     <h1 style={styleh}>What is Diabetes?</h1>
                     <p style={stylep}>Diabetes is a disease that occurs when your blood glucose, also called blood sugar, is too high. Blood glucose is your main source of energy and comes from the food you eat. Insulin, a hormone made by the pancreas, helps glucose from food get into your cells to be used for energy. Sometimes your body doesn’t make enough—or any—insulin or doesn’t use insulin well. Glucose then stays in your blood and doesn't reach your cells.</p>
