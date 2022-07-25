@@ -26,9 +26,6 @@
         inset 0 -0.45rem brown;
 }
 
-.diabetescontainer .container2 {
-    height: 60vh;
-}
 
 .aboutcontainer .container1,
 .container2 {
@@ -41,19 +38,19 @@
 
 .aboutcontainer .container1 img {
     padding-top: 20px;
-    width: 50vw;
-    height: auto;
-    animation: aboutusimg 4s linear infinite;
+    width: 100%;
+    height: 100%;
+    animation: aboutusimg 5s linear infinite;
 }
 @keyframes aboutusimg {
     0%{
-        transform: translateY(32px);
+        transform: translateY(0px);
     }
     50%{
-        transform: translateY(12px);
+        transform: translateY(30px);
     }
     100%{
-        transform: translateY(32px);
+        transform: translateY(0px);
     }
 }
 
