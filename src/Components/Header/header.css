@@ -1,7 +1,7 @@
 .header {
     height: 10vh;
     width: 100%;
-    background-color: none;
+    background-color: #fff;
     margin: 0;
     padding: 0;
     display: flex;
@@ -10,11 +10,13 @@
     box-shadow: 0px 0px 15px 5px rgba(184, 247, 255, 0.75);
     padding-bottom: 20px;
     cursor: pointer;
+    position: sticky;
+    top: 0;
 }
 .header .logo h1{
     padding: 5px;
     color: purple;
-    font-size: 26px;
+    font-size: 1.65rem;
     padding-left: 10px;
     cursor: pointer;
 }
@@ -34,7 +36,7 @@
     padding-right: 15px;
     padding-left: 15px;
     font-weight: bold;
-    font-size: 25px;
+    font-size: 1.6rem;
     color: black;
     transition: all 0.3s 0s;
 }
@@ -56,7 +58,7 @@
 }
 .header a button{
     padding: 10px;
-    font-size: 15px;
+    font-size: 1rem;
     border-radius: 50px;
     background: rgba(0, 187, 255, 1);
     color: white;
