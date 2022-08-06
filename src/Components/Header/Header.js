@@ -3,7 +3,7 @@ import './header.css'
 
 export default function Header() {
     let styleheader = {
-        fontFamily: 'Georgia'
+        fontFamily: 'Montserrat'
     }
     return (
         <header className='header' style={styleheader}>

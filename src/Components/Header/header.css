@@ -8,13 +8,11 @@
     flex-direction: row;
     justify-content: space-between;
     box-shadow: 0px 0px 15px 5px rgba(184, 247, 255, 0.75);
-    padding-bottom: 20px;
     cursor: pointer;
     position: sticky;
     top: 0;
 }
 .header .logo h1{
-    padding: 5px;
     color: purple;
     font-size: 1.65rem;
     padding-left: 10px;
@@ -32,7 +30,6 @@
     padding: 0;
 }
 .navbar ul li a .text{
-    padding: 10px;
     padding-right: 15px;
     padding-left: 15px;
     font-weight: bold;
@@ -53,7 +50,7 @@
     color: green;
 }
 .header a{
-    padding: 13px;
+    padding: 10px;
     padding-right: 15px;
 }
 .header a button{
