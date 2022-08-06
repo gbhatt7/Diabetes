@@ -3,16 +3,15 @@ import './diet.css'
 
 export default function Diet() {
   let styleh = {
-    fontFamily: 'Kaushan Script',
-    fontWeight: 'lighter',
-    fontSize: '60px',
-    textDecoration: 'underline',
-    textUnderlineOffset: '5px'
+    fontFamily: 'Montserrat',
+    fontSize: '3.2rem',
+    textAlign: 'center',
+    color: '#44d43b'
   }
   let stylep = {
-    fontFamily: 'Merienda',
+    fontFamily: 'Montserrat',
     fontWeight: 'lighter',
-    fontSize: '26px',
+    fontSize: '1.3rem',
     paddingLeft: '20px',
     paddingRight: '20px'
   }
@@ -34,6 +33,12 @@ export default function Diet() {
           </div>
         </div>
         <div className="container3">
+          <div className="imgbx"></div>
+          <div className="content">
+            <div className="details"></div>
+          </div>
+        </div>
+        <div className="container4">
           <div className="imgbx"></div>
           <div className="content">
             <div className="details"></div>

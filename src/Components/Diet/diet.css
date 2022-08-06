@@ -1,9 +1,11 @@
 .dietcontainer {
-    height: 60vh;
+    min-height: 40vh;
+    height: auto;
     width: 100%;
     background-color: white;
     justify-content: center;
     text-align: center;
+    padding-top: 40px;
 }
 
 .dietcontainer .subcontainer {
@@ -16,24 +18,26 @@
 .dietcontainer .subcontainer .container1,
 .dietcontainer .subcontainer .container2,
 .dietcontainer .subcontainer .container3 {
-    position: 'relative';
+    padding-bottom: 10px;
     width: 350px;
     height: 190px;
     border-radius: 20px;
-    box-shadow: 0 35px 80px rgba(0, 0, 0, 0.15);
-    transition: 0.5s;
+    box-shadow: 0 1px 15px rgb(156, 254, 240);
+    transition: 0.6s;
     align-items: center;
+    justify-content: center;
+    text-align: center;
     background-color: #fff;
 }
+
+
 
 .dietcontainer .subcontainer .container1 .imgbx,
 .dietcontainer .subcontainer .container2 .imgbx,
 .dietcontainer .subcontainer .container3 .imgbx {
-    position: relative;
     width: 150px;
     height: 150px;
     background: #000;
-    left: 28%;
 }
 
 .dietcontainer .subcontainer .container1:hover,
@@ -41,3 +45,4 @@
 .dietcontainer .subcontainer .container3:hover {
     height: 450px;
 }
+

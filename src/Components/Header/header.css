@@ -12,7 +12,11 @@
     position: sticky;
     top: 0;
 }
-.header .logo h1{
+.header .logo a{
+    text-decoration: none;
+    padding: 0;
+}
+.header .logo a h1{
     color: purple;
     font-size: 1.65rem;
     padding-left: 10px;

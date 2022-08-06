@@ -8,7 +8,7 @@ export default function Header() {
     return (
         <header className='header' style={styleheader}>
             <div className="logo">
-                <h1>Diabetes Care</h1>
+                <a href='#home'><h1>Diabetes Care</h1></a>
             </div>
             <nav className='navbar'>
                 <ul>

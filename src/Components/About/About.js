@@ -5,16 +5,14 @@ import aboutus from "./aboutus.jpg"
 
 export default function About() {
     let styleh = {
-        fontFamily: 'Kaushan Script',
-        fontWeight: 'lighter',
-        fontSize: '60px',
-        textDecoration: 'underline',
-        textUnderlineOffset: '5px'
+        fontFamily: 'Montserrat',
+        fontSize: '3.2rem',
+        textAlign: 'center'
     }
     let stylep = {
-        fontFamily: 'Merienda',
+        fontFamily: 'Montserrat',
         fontWeight: 'lighter',
-        fontSize: '26px',
+        fontSize: '1.3rem',
         paddingLeft: '20px',
         paddingRight: '20px'
     }
