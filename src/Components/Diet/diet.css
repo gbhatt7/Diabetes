@@ -1,48 +1,97 @@
+* {
+    box-sizing: border-box;
+    transition: 0.2s linear;
+}
+
 .dietcontainer {
-    min-height: 40vh;
     height: auto;
     width: 100%;
-    background-color: white;
     justify-content: center;
     text-align: center;
     padding-top: 40px;
+    padding-bottom: 20px;
+    font-family: 'Poppins';
 }
 
-.dietcontainer .subcontainer {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-}
-
-
-.dietcontainer .subcontainer .container1,
-.dietcontainer .subcontainer .container2,
-.dietcontainer .subcontainer .container3 {
+.wrapper {
+    margin: 10px auto;
+    padding: 0 10%;
     padding-bottom: 10px;
-    width: 350px;
-    height: 190px;
-    border-radius: 20px;
-    box-shadow: 0 1px 15px rgb(156, 254, 240);
-    transition: 0.6s;
-    align-items: center;
-    justify-content: center;
+    font-family: 'Poppins';
+}
+
+.wrapper .container {
+    display: grid;
+    gap: 25px;
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+}
+
+.wrapper .container .box {
+    padding: 20px;
+    justify-content: space-between;
     text-align: center;
-    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
 }
 
-
-
-.dietcontainer .subcontainer .container1 .imgbx,
-.dietcontainer .subcontainer .container2 .imgbx,
-.dietcontainer .subcontainer .container3 .imgbx {
-    width: 150px;
-    height: 150px;
-    background: #000;
+.wrapper .container .box img {
+    height: 160px;
+    width: 200px;
 }
 
-.dietcontainer .subcontainer .container1:hover,
-.dietcontainer .subcontainer .container2:hover,
-.dietcontainer .subcontainer .container3:hover {
-    height: 450px;
+.wrapper .container .box h3 {
+    color: #444;
+    padding: 10px 0;
+    font-size: 20px;
+    text-transform: capitalize;
 }
 
+.wrapper .container .box p {
+    color: #777;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.wrapper .container .box button {
+    color: #fff;
+    border: none;
+    outline: none;
+    font-size: 17px;
+    margin-top: 10px;
+    padding: 8px 15px;
+    background: #333;
+    border-radius: 5px;
+    display: inline-block;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.wrapper .container .box button:hover {
+    letter-spacing: 1px;
+}
+
+.wrapper .container .box:hover {
+    transform: scale(1.03);
+    box-shadow: 0 10px 15px rgba(184, 247, 255, 1);
+}
+
+.wrapper .container .box:hover:nth-child(1) {
+    transform: scale(1.03);
+    box-shadow: 0 10px 15px rgba(184, 255, 200, 1);
+}
+
+.wrapper .container .box:hover:nth-child(3) {
+    transform: scale(1.03);
+    box-shadow: 0 10px 15px rgba(255, 247, 184, 1);
+}
+
+.wrapper .container .box:hover:nth-child(4) {
+    transform: scale(1.03);
+    box-shadow: 0 10px 15px rgba(255, 184, 247, 1);
+}
+
+@media (max-width:770px) {
+    .wrapper {
+        padding: 20px;
+    }
+}
