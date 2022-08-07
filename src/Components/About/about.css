@@ -6,35 +6,36 @@
     justify-content: space-evenly;
     text-align: justify;
     padding-top: 10px;
-    display: flex;
-    flex-direction: row;
     box-shadow: none;
     border-radius: 50px;
+    font-family: 'Poppins';
+    display: grid;
+    gap: 0px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
-.diabetescontainer{
-    padding-top: 40px;
+.diabetescontainer {
+    margin-top: 40px;
 }
 
 .diabetescontainer .container1 h1 {
     color: brown;
+    padding-top: 20px;
 }
 
 .diabetescontainer .container1,
-.diabetescontainer .container2 {
-    width: 50%;
-    height: 100%;
+.diabetescontainer .container2,
+.aboutcontainer .container1,
+.aboutcontainer .container2 {
+    padding: 15px;
+    justify-content: space-between;
+    text-align: justify;
+    border-radius: 5px;
 }
 
 .diabetescontainer .container2 img {
     padding-top: 20px;
     width: 100%;
-    height: 100%;
-}
-
-.aboutcontainer .container1,
-.aboutcontainer .container2 {
-    width: 50%;
     height: 100%;
 }
 
@@ -46,4 +47,12 @@
     margin: 0;
     width: 100%;
     height: 100%;
+}
+
+@media (max-width:770px) {
+
+    .diabetescontainer,
+    .aboutcontainer {
+        padding: 20px;
+    }
 }

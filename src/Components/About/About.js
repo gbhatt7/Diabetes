@@ -5,16 +5,15 @@ import aboutus from "./aboutus.jpg"
 
 export default function About() {
     let styleh = {
-        fontFamily: 'Montserrat',
-        fontSize: '3.2rem',
+        fontSize: '50px',
         textAlign: 'center'
     }
     let stylep = {
-        fontFamily: 'Montserrat',
-        fontWeight: 'lighter',
-        fontSize: '1.3rem',
+        fontSize: '22px',
         paddingLeft: '20px',
-        paddingRight: '20px'
+        paddingRight: '20px',
+        lineHeight: '1.6',
+        color: '#444'
     }
     return (
         <>

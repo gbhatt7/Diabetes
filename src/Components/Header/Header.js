@@ -2,11 +2,8 @@ import React from 'react'
 import './header.css'
 
 export default function Header() {
-    let styleheader = {
-        fontFamily: 'Montserrat'
-    }
     return (
-        <header className='header' style={styleheader}>
+        <header className='header'>
             <div className="logo">
                 <a href='#home'><h1>Diabetes Care</h1></a>
             </div>
