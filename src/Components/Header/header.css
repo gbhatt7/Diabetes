@@ -75,8 +75,8 @@ button {
     color: rgba(0, 70, 255, 1);
 }
 
-.navbar ul li:nth-child(3) a .text:hover,
-.navbar ul li:nth-child(3) a.active .text {
+.navbar ul li:nth-child(2) a .text:hover,
+.navbar ul li:nth-child(2) a.active .text {
     color: green;
 }
 
