@@ -9,9 +9,9 @@ export default function Header() {
             </div>
             <nav className='navbar'>
                 <ul>
+                    <li><a href='#home'><div className="text">Home</div></a></li>
                     <li><a href='#about'><div className="text">About</div></a></li>
                     <li><a href='#diet'><div className="text">Diet</div></a></li>
-                    <li><a><div className="text">Chatbot</div></a></li>
                 </ul>
             </nav>
             <a href='#contact'><button>Contact Us</button></a>

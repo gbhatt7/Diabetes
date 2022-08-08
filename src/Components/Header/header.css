@@ -12,6 +12,7 @@
     display: grid;
     gap: 15px;
     grid-template-columns: 2rem 2fr 2fr 1fr 10rem;
+    padding-bottom: 10px;
 }
 
 .header .logo{
@@ -63,21 +64,21 @@ button {
 
 .navbar ul li a .text:hover,
 .navbarul li a.active .text {
-    color: crimson;
+    color: orange;
     transform: scale(1.5) translateY(-3px);
     padding-left: 25px;
     padding-right: 25px;
     letter-spacing: 1px;
 }
 
-.navbar ul li:nth-child(1) a .text:hover,
-.navbar ul li:nth-child(1) a.active .text {
+.navbar ul li:nth-child(2) a .text:hover,
+.navbar ul li:nth-child(2) a.active .text {
     color: rgba(0, 70, 255, 1);
 }
 
-.navbar ul li:nth-child(2) a .text:hover,
-.navbar ul li:nth-child(2) a.active .text {
-    color: green;
+.navbar ul li:nth-child(1) a .text:hover,
+.navbar ul li:nth-child(1) a.active .text {
+    color: rgb(53, 230, 53);
 }
 
 .header a {
