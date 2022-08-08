@@ -12,7 +12,6 @@ function App() {
       <Header />
       <Home />
       <About />
-      <Problems />
       <Diet />
       <Footer />
     </>
