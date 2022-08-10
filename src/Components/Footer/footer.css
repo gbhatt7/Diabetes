@@ -1,4 +1,53 @@
-.footercontainer .contact{
-    height: 80vh;
+.footercontainer {
     width: 100%;
+    padding-left: 10px;
+    margin-top: 20vh;
+    display: grid;
+    gap: 2px;
+    grid-template-columns: 1px 3fr 1fr 2fr 1px;
+}
+
+.footercontainer .contact {
+    grid-column: 2/3;
+    text-align: justify;
+    color: purple;
+}
+
+.footercontainer .contact h1 {
+    margin-bottom: 30px;
+    margin-top: 0;
+}
+
+.footercontainer .contact .icons .ionicon {
+    max-height: 30px;
+    color: brown;
+}
+
+.footercontainer .links,
+.footercontainer .diet,
+.footercontainer .chatbot {
+    margin-top: 50px;
+}
+
+.footercontainer .links a,
+.footercontainer .diet a,
+.footercontainer .chatbot a {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+
+.footcontainer {
+    height: 30px;
+    width: 100%;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.footcontainer h4 {
+    font-size: 20px;
+    padding-bottom: 10px;
 }
