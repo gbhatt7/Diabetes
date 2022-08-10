@@ -26,25 +26,25 @@ export default function Diet() {
       </div>
       <div className="wrapper">
         <div className="container">
-          <div className="box">
+          <div className="box" id='what'>
             <img src={whattoeat} alt="" />
             <h3>What to eat</h3>
             <p>Tells you about what to eat to keep your self health by giving the details about the food items and the sugar level in them.</p>
             <button>read more</button>
           </div>
-          <div className="box">
+          <div className="box" id='when'>
             <img src={whentoeat} alt="" />
             <h3>When to eat</h3>
             <p>Tells you about at what time you should eat your meals so that you could digest the comsumed food properly.</p>
             <button>read more</button>
           </div>
-          <div className="box">
+          <div className="box" id='exercise'>
             <img src={exercise} alt="" />
             <h3>Exercise to do</h3>
             <p>Tells you about the different types of exercises that you should do on daily basis and at what time you should do them to get the best benefits.</p>
             <button>read more</button>
           </div>
-          <div className="box">
+          <div className="box" id='plan'>
             <img src={dietplan} alt="" />
             <h3>Custom Diet Plan</h3>
             <p>You can make your diet plan with this and keep in check the amount of sugar intake in your body and eat what you want to eat.</p>

@@ -18,10 +18,10 @@ export default function Footer() {
                 </div>
                 <div className="diet">
                     <a href='#diet'>Diet</a>
-                    <a href='#'>What to eat?</a>
-                    <a href='#'>When to eat</a>
-                    <a href='#'>Exercises to do</a>
-                    <a href='#'>Custom Diet Plan</a>
+                    <a href='#what'>What to eat?</a>
+                    <a href='#when'>When to eat</a>
+                    <a href='#exercise'>Exercises to do</a>
+                    <a href='#plan'>Custom Diet Plan</a>
                 </div>
             </div>
             <div className="footcontainer">
