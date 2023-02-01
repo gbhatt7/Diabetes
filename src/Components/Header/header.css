@@ -11,7 +11,7 @@
     top: 0;
     display: grid;
     gap: 15px;
-    grid-template-columns: 2rem 2fr 2fr 1fr 10rem;
+    grid-template-columns: 2rem 2fr 2fr 1fr 1fr 10rem;
     padding-bottom: 10px;
 }
 
